@@ -1,0 +1,40 @@
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.env
+.venv
+venv/
+*.env.local
+
+# Virtual environment — never commit
+.venv/
+venv/
+env/
+
+# Experiments — results committed, raw models not
+experiments/models/*.onnx
+experiments/models/*.trt
+experiments/calibration/*.npy
+
+# Keep results
+!experiments/results/*.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TensorRT plan files
+*.trt
+*.engine
+*.plan
