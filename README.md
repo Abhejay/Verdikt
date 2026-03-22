@@ -128,19 +128,6 @@ All results are written to `experiments/results/` as structured JSON evidence ar
 
 ---
 
-## Citation
-
-```bibtex
-@article{murali2026verdikt,
-  title={Verdikt: Towards Verifiable Safety Evidence for Quantized Neural Network Deployment in Regulated Systems},
-  author={Murali, Abhejay},
-  journal={NeurIPS Workshop on Trustworthy Machine Learning},
-  year={2026}
-}
-```
-
----
-
 ## License
 
 Apache 2.0 — see `LICENSE`.
