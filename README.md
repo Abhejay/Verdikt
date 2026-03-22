@@ -4,10 +4,10 @@
 
 Verdikt is an open-source toolkit that systematically generates structured safety evidence for ONNX/TensorRT quantized models. It answers a question existing tooling ignores: not just whether a quantized model is accurate, but whether its behavior under quantization is **bounded, reproducible, and verifiable** in a form a safety auditor can accept.
 
-> 📄 Paper: *"Verdikt: Towards Verifiable Safety Evidence for Quantized Neural Network Deployment in Regulated Systems"* — *forthcoming*
+> 📄 Paper: *"Verdikt: A Safety Evidence Framework for Quantized LLM Deployment in Regulated Systems"* — *forthcoming*
 
 ---
-
+`
 ## What Verdikt produces
 
 | Module | Evidence artifact |
